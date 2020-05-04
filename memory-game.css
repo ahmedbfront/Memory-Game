@@ -1,5 +1,6 @@
 .memory-game {
   position: relative;
+  top: 50px;
 }
 .memory-game .control-buttons {
   position: absolute;
