@@ -27,17 +27,17 @@
 .memory-game .info-container {
   background-color: #fb397d;
   color: #fff;
-  margin: 20px auto 0;
-  padding: 16px;
+  padding: 16px 30px;
   font-size: 24px;
-  overflow: hidden;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .memory-game .info-container .name {
   float: left;
   width: 50%;
-}
-.memory-game .info-container .tries {
-  text-align: right;
 }
 .memory-game .memory-game-blocks {
   display: flex;
